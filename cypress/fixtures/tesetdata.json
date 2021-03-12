@@ -1,0 +1,26 @@
+
+{
+    "register": {
+        "username":"Hello12",
+        "password":"P@ssw0rd",
+        "firstname":"Hello",
+        "lastname":"World",
+        "address": "1991 Great North Rd",
+        "age": "25",
+        "gender": "Female",
+        "hobby": "Learning",
+        "phone": "0987645234"
+    },
+
+        
+    "selector": {
+        "inputUsername": "[name=username]",
+        "inputFirstname": "[name=firstName]",
+        "inputLastname": "[name=lastName]",
+        "inputPassword": "[for=password]",
+        "inputConfirmpassword": "[for=confirmPassword]",
+        "inputLogin": "[name=login]",
+        "inputPswd": "[name=password]"
+            }
+}
+    
