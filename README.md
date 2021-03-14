@@ -6,6 +6,7 @@
   As  An end user functional flow is used in the generation of scripts. An user visits site, register,login, update profile and votes.
   As an Functional automation tester, i have identified bugs in the error messages, validation messages and site.Idenfied bugs are reported in
   [BugsinBuggytest.docx](https://github.com/svk2021/Buggytestautomation/blob/main/BugsinBuggytest.docx)
+  Please open "BugsinBuggytest.docx" for all 5 bugs/issues.
   
   
   
