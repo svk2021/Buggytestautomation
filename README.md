@@ -25,9 +25,12 @@
   * Download visual studio code https://code.visualstudio.com/download
   * npm install cypress
   # Run Cypress with Test Runner
+  ```
    cd /project folder
    npx cypress open
+   npx cypress run --spec cypress\integration\Buggytests\*.spec.js --browser chrome
    ```
+   
    
    # Tests created 
    
@@ -39,6 +42,12 @@
 
    ## Run with Test Runner
    in the cypress Test Runner, select Chrome as the browser and click on "Run 5 integration specs"
+   
+   ## Execution Summary Report
+   [Chart generated](https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/LoginExecutionScript.PNG)
+   
+   
+   
    
    
   
