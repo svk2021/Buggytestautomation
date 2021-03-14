@@ -22,11 +22,22 @@
   ```
   ## Install nodejs and cypress in your local machine
   * install nodejs : go to https://nodejs.org/en/download/ and install
-  * install cypress
+  * Download visual studio code https://code.visualstudio.com/download
+  * npm install cypress
   # Run Cypress with Test Runner
    cd /project folder
    npx cypress open
    ```
+   
+   # Tests created 
+   
+   ## Test scenarios  created for
+   * login.spec.js
+   * profile.spec.js
+   * register.spec.js
+   * votes.spec.js
+
+   ## Run with Test Runner
    in the cypress Test Runner, select Chrome as the browser and click on "Run 5 integration specs"
    
    
