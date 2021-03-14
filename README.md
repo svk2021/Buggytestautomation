@@ -22,6 +22,7 @@
   ```
   ## Install nodejs and cypress in your local machine
   * install nodejs : go to https://nodejs.org/en/download/ and install
+  * Download visual studio code https://code.visualstudio.com/download
   * install cypress
   # Run Cypress with Test Runner
    cd /project folder
