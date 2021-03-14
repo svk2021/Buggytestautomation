@@ -8,6 +8,14 @@
   [BugsinBuggytest.docx](https://github.com/svk2021/Buggytestautomation/blob/main/BugsinBuggytest.docx)
   Please open "BugsinBuggytest.docx" for all 5 bugs/issues.
   
+  ##Bugs reported
+    1. Registrer page, Lastname field validation message displayed - "FirstName is required"
+    2. Register page,Password validation error message- not properly trimmed -left trim and right trim
+    3. Register page, Password policy - validation error -"password is not long enough:- even though password (test@12)is 6 characters,lower case caseand special chracters
+    4. Vote form ,after voting author details are not displayed
+    5. copy right symbol showing 2016, it should be current year -2021
+    
+  
   
   
   
