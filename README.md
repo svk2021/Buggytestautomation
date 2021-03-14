@@ -44,7 +44,7 @@
    in the cypress Test Runner, select Chrome as the browser and click on "Run 5 integration specs"
    
    ## Execution Summary Report
-   * [Chart generated](https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/TestExecutionReportchart.PNG  "Test execution summary")
+   * [Chart generated] (https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/TestExecutionReportchart.PNG  "Test execution summary")
    * [Login] (https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/login.PNG "loginscript")
    * [Login execution] (https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/LoginExecutionScript.PNG "login execution") 
    * [Register] (https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/RegisterScriptExectionreport.PNG "register validation")
