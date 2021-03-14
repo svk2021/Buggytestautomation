@@ -12,7 +12,7 @@ describe('Login script for buggycarr', function () {
 
     })
   
-    it('Login with valid user', function () {
+    it('Successful Log in with valid login and password', function () {
         
         cy.get(this.data.selector.inputLogin).type(this.data.register.username)
         cy.get(this.data.selector.inputPswd).type(this.data.register.password)
@@ -21,7 +21,7 @@ describe('Login script for buggycarr', function () {
         cy.contains('a', 'Logout').click()
 
     })
-    it('Login with invalid user', function () {
+    it('Display_error invalid username_password with invalid credentials', function () {
         
         cy.generateRandomString(10).then(user => {
         cy.get(this.data.selector.inputLogin).type(user) })

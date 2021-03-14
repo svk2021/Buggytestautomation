@@ -2,11 +2,11 @@
 
  
 
-describe('User Profile script for buggycarr', function () {
+describe('User Profile script for buggycar', function () {
 
     beforeEach(function () {
 
-        cy.visit('https://buggy.justtestit.org/')
+         cy.visit('https://buggy.justtestit.org/')
         cy.fixture('tesetdata').as('data')
         
 
@@ -43,7 +43,7 @@ describe('User Profile script for buggycarr', function () {
         
     })
     
-    it('Update user profile with invalid current password', function () {
+    it('IncorrectUsernameOrPasswordDisplayed when user profile updatged with invalid current password', function () {
         
         cy.get(this.data.selector.inputLogin).type(this.data.register.username)
         cy.get(this.data.selector.inputPswd).type(this.data.register.password)

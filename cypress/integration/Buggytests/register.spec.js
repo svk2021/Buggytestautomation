@@ -8,7 +8,7 @@ describe('Register script for buggycarr', function () {
 
     })
 
-    it('Register form with invalid password length', function () {
+    it('Valid validation error displyed -Minimum field of size 6, when password length is less than 6', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')
@@ -23,7 +23,7 @@ describe('Register script for buggycarr', function () {
 
     })
 
-    it('Register form with invalid password do not match', function () {
+    it('Valid validation error displayed -Passwords do not match,when password and confirm password do not match', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')
@@ -35,7 +35,7 @@ describe('Register script for buggycarr', function () {
         cy.contains("Passwords do not match").should('be.visible')
 
     })
-    it('register form with invalid password not long enough', function () {
+    it('Invalid Error displayed-password not long enough,when  Uppercase letter missing but have 6 characters with lowercase_special_number Characters', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')
@@ -49,7 +49,7 @@ describe('Register script for buggycarr', function () {
         
 
     })
-    it('register form with invalid password uppercase', function () {
+    it('Valid validation error displayed-Password must have uppercase characters when password combination does not have uppercase characters', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')
@@ -63,7 +63,7 @@ describe('Register script for buggycarr', function () {
         
 
     })
-    it('register form with invalid password special symbol', function () {
+    it('Valid validation error displayed-Password must have symbol characters when password combination does not have special characters', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')
@@ -77,7 +77,7 @@ describe('Register script for buggycarr', function () {
         
 
     })
-    it('register form with invalid password lowercase', function () {
+    it('Valid validation error-Password must have symbol characters when password combination does not have lower case  characters', function () {
 
         cy.contains('a', 'Register').click()
         cy.get('input[name=username]').type('test')

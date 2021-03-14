@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-03-12T00:43:34.508Z",
-    "end": "2021-03-12T00:43:46.271Z",
-    "duration": 11763,
+    "start": "2021-03-14T07:27:13.713Z",
+    "end": "2021-03-14T07:27:20.481Z",
+    "duration": 6768,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e8659117-15b8-4399-85fb-3c591aa43cd3",
+      "uuid": "18529e1d-e018-49bc-bf45-d48975837f88",
       "title": "",
       "fullFile": "cypress\\integration\\Buggytests\\profile.spec.js",
       "file": "cypress\\integration\\Buggytests\\profile.spec.js",
@@ -27,8 +27,8 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "29ebacfd-d0d0-4e3d-a2eb-702ec2406cfb",
-          "title": "Login script for buggycarr",
+          "uuid": "2a823775-6060-4dbf-be0e-82536c7ba0ef",
+          "title": "User Profile script for buggycar",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
@@ -36,9 +36,9 @@
           "tests": [
             {
               "title": "Update user profile additional details",
-              "fullTitle": "Login script for buggycarr Update user profile additional details",
+              "fullTitle": "User Profile script for buggycar Update user profile additional details",
               "timedOut": null,
-              "duration": 5882,
+              "duration": 5141,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get(this.data.selector.inputLogin).type(this.data.register.username);\ncy.get(this.data.selector.inputPswd).type(this.data.register.password);\ncy.contains('button', 'Login').click();\ncy.contains('a', 'Profile').click();\ncy.get('#gender').type(this.data.register.gender);\ncy.get('#age').type(this.data.register.age);\ncy.get('#address').type(this.data.register.address);\ncy.get('#hobby').select(this.data.register.hobby);\ncy.contains('button', 'Save').click();\ncy.get('.result').contains('The profile has been saved successful').should('be.visible');\ncy.get('#gender').clear();\ncy.get('#age').clear();\ncy.get('#address').clear();\ncy.contains('button', 'Save').click();\ncy.get('.result').contains('The profile has been saved successful').should('be.visible');",
               "err": {},
-              "uuid": "d0b0d67b-55f8-4df7-aa6d-c0a7a4876673",
-              "parentUUID": "29ebacfd-d0d0-4e3d-a2eb-702ec2406cfb",
+              "uuid": "07f8a3e8-b699-4795-af35-02a0adbea269",
+              "parentUUID": "2a823775-6060-4dbf-be0e-82536c7ba0ef",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d0b0d67b-55f8-4df7-aa6d-c0a7a4876673"
+            "07f8a3e8-b699-4795-af35-02a0adbea269"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5882,
+          "duration": 5141,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

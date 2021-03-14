@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2021-03-12T00:43:10.059Z",
-    "end": "2021-03-12T00:43:20.802Z",
-    "duration": 10743,
+    "start": "2021-03-14T07:27:02.391Z",
+    "end": "2021-03-14T07:27:07.233Z",
+    "duration": 4842,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "403b367f-d2a9-4cec-b459-e3faa426ba54",
+      "uuid": "a5487023-d3ce-4b98-bfdb-2f0e75217858",
       "title": "",
       "fullFile": "cypress\\integration\\Buggytests\\login.spec.js",
       "file": "cypress\\integration\\Buggytests\\login.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f8d624e7-e275-4f56-aeb8-d42c944f4faa",
+          "uuid": "360ec36d-2dbb-49a2-b591-5cb5f24dc467",
           "title": "Login script for buggycarr",
           "fullFile": "",
           "file": "",
@@ -35,10 +35,10 @@
           "afterHooks": [],
           "tests": [
             {
-              "title": "login with valid user",
-              "fullTitle": "Login script for buggycarr login with valid user",
+              "title": "Successful Log in with valid login and password",
+              "fullTitle": "Login script for buggycarr Successful Log in with valid login and password",
               "timedOut": null,
-              "duration": 3986,
+              "duration": 2073,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,16 +47,16 @@
               "context": null,
               "code": "cy.get(this.data.selector.inputLogin).type(this.data.register.username);\ncy.get(this.data.selector.inputPswd).type(this.data.register.password);\ncy.contains('button', 'Login').click();\ncy.contains('li', 'Hi', +this.data.register.firstname).should('be.visible');\ncy.contains('a', 'Logout').click();",
               "err": {},
-              "uuid": "ddee2094-06bd-4655-955c-fc642c16afd0",
-              "parentUUID": "f8d624e7-e275-4f56-aeb8-d42c944f4faa",
+              "uuid": "7141731a-6760-47c7-90c5-720367b3f715",
+              "parentUUID": "360ec36d-2dbb-49a2-b591-5cb5f24dc467",
               "isHook": false,
               "skipped": false
             },
             {
-              "title": "login with invalid user",
-              "fullTitle": "Login script for buggycarr login with invalid user",
+              "title": "Display_error invalid username_password with invalid credentials",
+              "fullTitle": "Login script for buggycarr Display_error invalid username_password with invalid credentials",
               "timedOut": null,
-              "duration": 1775,
+              "duration": 1123,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "var _this = this;\ncy.generateRandomString(10).then(function (user) {\n  cy.get(_this.data.selector.inputLogin).type(user);\n});\ncy.generateRandomString(10).then(function (psd) {\n  cy.get(_this.data.selector.inputPswd).type(psd);\n});\ncy.contains('button', 'Login').click();\ncy.contains('Invalid username/password').should('be.visible');",
               "err": {},
-              "uuid": "4c594e7d-e519-43a0-a9fe-f14fe918e0c3",
-              "parentUUID": "f8d624e7-e275-4f56-aeb8-d42c944f4faa",
+              "uuid": "73a43d04-8e26-4c7e-aabf-d2e21fe462cb",
+              "parentUUID": "360ec36d-2dbb-49a2-b591-5cb5f24dc467",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ddee2094-06bd-4655-955c-fc642c16afd0",
-            "4c594e7d-e519-43a0-a9fe-f14fe918e0c3"
+            "7141731a-6760-47c7-90c5-720367b3f715",
+            "73a43d04-8e26-4c7e-aabf-d2e21fe462cb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5761,
+          "duration": 3196,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
