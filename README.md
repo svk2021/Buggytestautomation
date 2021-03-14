@@ -31,11 +31,13 @@
    
    # Tests created 
    
-   ## Test suites created for
+   ## Test scenarios  created for
    * login.spec.js
    * profile.spec.js
    * register.spec.js
    * votes.spec.js
+
+   ## Run with Test Runner
    in the cypress Test Runner, select Chrome as the browser and click on "Run 5 integration specs"
    
    
