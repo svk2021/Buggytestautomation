@@ -9,13 +9,13 @@
   Please open "BugsinBuggytest.docx" for all 5 bugs/issues.
   
   ##Bugs reported
-  ```
+ 
     *. Registrer page, Lastname field validation message displayed - "FirstName is required"
     *. Register page,Password validation error message- not properly trimmed -left trim and right trim
     *. Register page, Password policy - validation error -"password is not long enough:- even though password (test@12)is 6 characters,lower case caseand special chracters
     *. Vote form ,after voting author details are not displayed
     *. copy right symbol showing 2016, it should be current year -2021
-    ```
+    
     
   
   
