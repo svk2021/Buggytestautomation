@@ -29,8 +29,9 @@
    cd /project folder
    npx cypress open
    npx cypress run --spec cypress\integration\Buggytests\*.spec.js --browser chrome
-   ```
    
+   ```
+   [Command Line execution] (https://github.com/svk2021/Buggytestautomation/blob/main/cypress/images/testexecutioncommand.PNG "command")
    
    # Tests created 
    
