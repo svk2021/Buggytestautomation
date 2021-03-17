@@ -2,7 +2,7 @@
 
 # Project Description
   
-  Cypress framework with Javascript is used to automate the resource https://buggy.testit.org/.
+  Cypress framework with Javascript is used to automate the resource https://buggy.justtestit.org/.
   As  An end user functional flow is used in the generation of scripts. An user visits site, register,login, update profile and votes.
   As an Functional automation tester, i have identified bugs in the error messages, validation messages and site.Idenfied bugs are reported in
   [BugsinBuggytest.docx](https://github.com/svk2021/Buggytestautomation/blob/main/BugsinBuggytest.docx)
@@ -12,7 +12,7 @@
  
     *. Registrer page, Lastname field validation message displayed - "FirstName is required"
     *. Register page,Password validation error message- not properly trimmed -left trim and right trim
-    *. Register page, Password policy - validation error -"password is not long enough:- even though password (test@12)is 6 characters,lower case caseand special chracters
+    *. Register page, Password policy - validation error -"password is not long enough:- even though password (test@12)is 6 characters,lower case and special chracters
     *. Vote form ,after voting author details are not displayed
     *. copy right symbol showing 2016, it should be current year -2021
     
